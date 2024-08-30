@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "playground-quarto-book",
+    "section": "",
+    "text": "Preface",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#level2",
+    "href": "index.html#level2",
+    "title": "playground-quarto-book",
+    "section": "Level2",
+    "text": "Level2\nThis is a Quarto book.\nKnuth (1984)\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#bibliography--707ddefda8b9d501a1d63dad3fcb74d0cb28b51a",
+    "href": "index.html#bibliography--707ddefda8b9d501a1d63dad3fcb74d0cb28b51a",
+    "title": "playground-quarto-book",
+    "section": "References",
+    "text": "References\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 part1\nThis is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.\n@Simmons2012\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "2.1 part1\nIn summary, this book has no content whatsoever.\n1 + 1\n\n[1] 2\n@knuth84\n@Simmons2012",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\nSimmons, Joseph P, Leif D Nelson, and Uri Simonsohn. 2012. “A 21\nWord Solution.” SPSP Dialogue, 1–4. https://doi.org/10.2139/ssrn.2160588.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]

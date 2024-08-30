@@ -1,0 +1,16 @@
+# Introduction
+
+## part1
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+@Simmons2012
+
+```{r}
+1 + 1
+```
+
+
+

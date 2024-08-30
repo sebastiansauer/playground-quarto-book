@@ -1,0 +1,27 @@
+project:
+  type: book
+
+book:
+  title: "playground-quarto-book"
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+reference-section-title: References
+citeproc: false
+
+filters:
+  - section-bibliographies
+
+format:
+  html:
+    theme: cosmo
+  # pdf:
+  #   documentclass: scrreprt
+
+
+
