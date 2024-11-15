@@ -1,0 +1,19 @@
+{
+  "hash": "f034eb51a68eed6811851e5fdafbad7d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# sjkfe\n\nsdfjk\n\ndsjfkll\n\n\n\n\n\n\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(pradadata)  # für den Datensatz `wo_men`\nlibrary(prada)  # für bayesbox, alternativ mit `source`\nlibrary(tidyverse)\nlibrary(ggpubr)\nlibrary(rstanarm)\nlibrary(easystats)\n\ndata(wo_men)\n\n\nwo_men |> \n  filter(height < 210, height > 150) |> \n  group_by(sex) |> \n  summarise(height_avg = mean(height, na.rm = TRUE),\n            height_sd = sd(height, na.rm = TRUE))\n```\n\n::: {.cell-output-display}\n<div class=\"kable-table\">\n\n|sex   | height_avg| height_sd|\n|:-----|----------:|---------:|\n|man   |   183.1111|  9.958082|\n|woman |   166.9675|  6.105615|\n\n</div>\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": true
+  }
+}
