@@ -4,9 +4,19 @@
     "href": "index.html",
     "title": "playground-quarto-book",
     "section": "",
-    "text": "1 sjkfe\nsdfjk\ndsjfkll\n\nCode```{r}\n#| eval: true\n1 + 1\nplot(mtcars$mpg, mtcars$wt)\n```\n\n[1] 2",
+    "text": "1 sdf",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>sjkfe</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>sdf</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#vertically-aligned",
+    "href": "index.html#vertically-aligned",
+    "title": "playground-quarto-book",
+    "section": "1.1 Vertically Aligned",
+    "text": "1.1 Vertically Aligned\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus ultrices leo sit amet accumsan.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>sdf</span>"
     ]
   }
 ]

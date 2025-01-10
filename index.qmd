@@ -1,16 +1,12 @@
-# sjkfe
+# sdf
 
-sdfjk
+## Vertically Aligned 
 
-dsjfkll
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus ultrices
+leo sit amet accumsan.
 
+::: {layout="[[-1], [1], [-1]]"}
 
-```{r}
-#| echo: fenced
-#| eval: true
-1 + 1
-plot(mtcars$mpg, mtcars$wt)
-```
+![](https://placeholder.pics/svg/200){fig-align="center"}
 
-
-
+:::

@@ -1,8 +1,8 @@
 {
-  "hash": "3cd45017378875a093ba9d8c091f21f1",
+  "hash": "ba197529e96eb16efe0d5ad4b84f2c65",
   "result": {
     "engine": "knitr",
-    "markdown": "# sjkfe\n\nsdfjk\n\ndsjfkll\n\n\n\n\n\n\n\n::: {.cell}\n\n````{.cell-code}\n```{{r}}\n#| eval: true\n1 + 1\nplot(mtcars$mpg, mtcars$wt)\n```\n````\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n\n::: {.cell-output-display}\n![](index_files/figure-pdf/unnamed-chunk-1-1.pdf){fig-pos='H'}\n:::\n:::\n",
+    "markdown": "# sdf\n\n\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# eval: !expr knitr::is_html_output()\nplot(mtcars)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-pdf/unnamed-chunk-1-1.pdf){fig-pos='H' width=50%}\n:::\n:::\n",
     "supporting": [
       "index_files/figure-pdf"
     ],

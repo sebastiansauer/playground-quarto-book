@@ -144,7 +144,7 @@
 %\usepackage{xcolor}
 \usepackage{listings}
 \usepackage{fvextra}
-\usepackage{csquotes}
+\usepackage[german]{csquotes}
 %\usepackage{babel}
 \MakeOuterQuote{"}
 
@@ -225,6 +225,7 @@
 \ifLuaTeX
   \usepackage[german]{selnolig} % disable illegal ligatures
 \fi
+\usepackage{csquotes}
 \usepackage{bookmark}
 
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
@@ -253,27 +254,16 @@
 \mainmatter
 \bookmarksetup{startatroot}
 
-\chapter{sjkfe}\label{sjkfe}
-
-sdfjk
-
-dsjfkll
+\chapter{sdf}\label{sdf}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\InformationTok{\textasciigrave{}\textasciigrave{}\textasciigrave{}\{r\}}
-\InformationTok{\#| eval: true}
-\InformationTok{1 + 1}
-\InformationTok{plot(mtcars$mpg, mtcars$wt)}
-\InformationTok{\textasciigrave{}\textasciigrave{}\textasciigrave{}}
+\CommentTok{\# eval: !expr knitr::is\_html\_output()}
+\FunctionTok{plot}\NormalTok{(mtcars)}
 \end{Highlighting}
 \end{Shaded}
 
-\begin{verbatim}
-[1] 2
-\end{verbatim}
-
-\pandocbounded{\includegraphics[keepaspectratio]{index_files/figure-pdf/unnamed-chunk-1-1.pdf}}
+\includegraphics[width=0.5\linewidth,height=\textheight,keepaspectratio]{index_files/figure-pdf/unnamed-chunk-1-1.pdf}
 
 
 \backmatter
